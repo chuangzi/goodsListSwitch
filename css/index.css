@@ -1,0 +1,88 @@
+.goods-list {
+    width: 1080px;
+    margin: 50px auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.goods-list ul {
+    width: 3600px;
+    height: 400px;
+}
+
+.goods-list ul li {
+    float: left;
+    width: 160px;
+    height: 300px;
+    margin: 0 10px;
+    border-right: 1px solid #AAA;
+}
+
+.goods-list ul li img {
+    width: 159px;
+    height: 160px;
+    margin-bottom: 20px;
+}
+
+
+.goods-list .btn {
+    position: absolute;
+    top: 50%;
+    margin-top: -90px;
+    display: block;
+    width: 24px;
+    height: 60px;
+    line-height: 60px;
+    background: gray;
+    background: rgba(0,0,0,.2);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#32000000,endColorstr=#32000000);
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#32000000,endColorstr=#32000000);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: simsun;
+    color: #fff;
+    text-decoration: none;
+}
+
+.goods-list .next-btn {
+    right: 0;
+}
+
+.goods-list ul li .box{
+    width: 140px;
+    height: 20px;
+    background-color: #E5E5E5;
+    margin: 0 auto;
+    /*text-align: center;*/
+    padding-left: 6px;
+    line-height: 20px;
+    position: relative;
+    font-size: 12px;
+}
+.goods-list ul li .box span{
+    color: #f00;
+}
+.goods-list ul li .box p:before{
+    content: '';
+    width: 0;
+    height: 0;
+    border: 10px solid transparent; border-bottom-color: #E5E5E5;
+    position: absolute;
+    left: 60px;
+    top: -20px;
+}
+.goods-list ul li .txt1{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    line-height: 16px;
+    color: #787878;
+}
+.goods-list ul li .txt1:hover{
+    color: #F00;
+}
+.goods-list ul li em{
+    font-size: 16px;
+    color: #F00;
+}
+
